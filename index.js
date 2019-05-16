@@ -95,4 +95,4 @@ function NumPicker() {
 }
 
 /* connect component with HTML */
-ReactDOM.render(<JSXDemo />, document.getElementById("root"));
+ReactDOM.render(<NumPicker />, document.getElementById("root"));
