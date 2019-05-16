@@ -24,6 +24,7 @@ function HelloWorld() {
 		<div>
 			<h1>Hello World</h1>
 			<h2>from Function Component</h2>
+			<img src="http://www.petmd.com/sites/default/files/what-does-it-mean-when-cat-wags-tail.jpg" />
 		</div>
 	);
 }
