@@ -3,7 +3,19 @@ class Hi extends React.Component {
 		
 		console.log(this.props);
 		const props = this.props;
-		return <h1>Hi {props.to}, from {props.from}!</h1>;
+		let bangs = "!".repeat(this.props.bangs)
+		let isTrue;
+		if(props.isCute){
+			isTrue = "true";
+		} else {
+			isTrue = "flase";
+		}
+		return (
+			<div>
+				<h1>Hi {props.to}, who is {props.age} years old. Her friends are {props.friends}, and it's {isTrue} that she is cute.</h1>
+				<h1>I love you so much{bangs} from {props.from}</h1>
+			</div>
+		);
 	}
 }
 
