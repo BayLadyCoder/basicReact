@@ -1,0 +1,26 @@
+.cat {
+    padding: 15px;
+    font-size: 16px;
+    border: 2px rgb(0, 255, 8) solid;
+}
+
+
+.noneCat {
+    padding: 15px;
+    font-size: 14px;
+    border: 2px rgb(230, 0, 0) solid;
+}
+
+.flex-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center; 
+}
+
+.right {
+    align-items: flex-end;
+}
