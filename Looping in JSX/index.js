@@ -1,7 +1,8 @@
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className="flex-column center">
+                <h1>My Pets</h1>
                 <Friends 
                     name="Katniss"
                     hobbies={["playing", "napping", "eating", "purring"]}

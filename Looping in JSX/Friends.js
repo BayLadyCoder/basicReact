@@ -12,8 +12,8 @@ class Friends extends React.Component {
         const colors = { backgroundColor: 'rgb(28, 28, 28)', color: 'rgb(255, 190, 25)'};
         const isCat = animal === 'cat';
         return (
-            <div className={`flex-column center + ${isCat ? 'cat' : 'noneCat'}`} style={colors}>
-                <h1>{name} {lastname}, {animal}</h1>
+            <div className={`flex-column center w-80 + ${isCat ? 'cat' : 'noneCat'}`} style={colors}>
+                <h3>{name} {lastname}, I am a {animal}</h3>
                 <ul>
                     {hobbies.map(h => <li>{h}</li>)}
                 </ul>
@@ -36,10 +36,9 @@ class Friends2 extends React.Component {
         const list =  hobbies.map(h => <li>{h}</li>)
         const colors = { backgroundColor: 'rgb(210, 117, 3)', color: 'rgb(255, 255, 255'};
         const isCat = animal === 'cat';
-
         return (
-            <div className={`flex-column right + ${isCat ? 'cat' : 'noneCat'}`} style={colors}>
-                <h1>{name} {lastname}, {animal}</h1>
+            <div className={`flex-column right w-80 + ${isCat ? 'cat' : 'noneCat'}`} style={colors}>
+                <h3>{name} {lastname}, I am a {animal}</h3>
                 <ul>
                     {list}
                 </ul>

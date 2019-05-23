@@ -1,9 +1,16 @@
+h3, ul {
+    margin: 0;
+}
+
 .cat {
     padding: 15px;
     font-size: 16px;
     border: 2px rgb(0, 255, 8) solid;
 }
 
+.w-80 {
+    width: 80%;
+}
 
 .noneCat {
     padding: 15px;
