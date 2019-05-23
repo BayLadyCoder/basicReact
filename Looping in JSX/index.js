@@ -9,6 +9,7 @@ class App extends React.Component {
                 <Friends2 
                     name="Sammy"
                     hobbies={["spying", "meowing", "eating", "purring"]}
+                    lastname="Lady"
                 />
             </div>
         );
