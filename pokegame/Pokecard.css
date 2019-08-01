@@ -1,0 +1,28 @@
+.Pokecard {
+    background-color: rgb(222, 222, 222);
+    width: 250px;
+    padding: 1px 0;
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.719);
+    box-shadow: 6px 7px 10px -4px rgba(26, 49, 84, 0.719);
+
+    transition: all ease 500ms;
+}
+
+.Pokecard:hover {
+    box-shadow: 6px 7px 10px -4px rgba(26, 49, 84, 0.719);
+    box-shadow: 6px 7px 10px -2px rgba(0, 0, 0, 0.719);
+
+    /* background-color: rgba(220, 220, 220, 0.762); */
+    transform: scale(1.05);
+}
+
+.Pokecard img {
+    transition: all ease 500ms;
+}
+
+
+.Pokecard:hover>img {
+    transform: scale(1.25);
+}
